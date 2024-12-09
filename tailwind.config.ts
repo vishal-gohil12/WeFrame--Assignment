@@ -11,6 +11,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'custom-pink': '#EE4197'
+      },
+      fontFamily: {
+        geist: ['Geist', 'sans-serif'], 
+        playfair: ['Playfair Display', 'serif'],
       },
     },
   },

@@ -2,9 +2,11 @@ import React from "react";
 import table from "/public/tableItem.png";
 import Image from "next/image";
 
-export default function ItemCart() {
+export default function ItemCart({ size }: { size: number }) {
   return (
-    <div className="w-full sm:w-[330px] md:w-[270px] lg:w-[330px] h-[438px]">
+    <div
+      className={`w-full sm:w-[330px] md:w-[270px] lg:w-[${size}px] h-[438px]`}
+    >
       <div className="rounded-md bg-[#F9F7F5] w-full h-[362px]">
         <div className="flex justify-between px-2 py-4 h-[25px]">
           <svg

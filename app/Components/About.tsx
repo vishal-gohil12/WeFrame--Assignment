@@ -5,7 +5,7 @@ export default function About() {
         <p className="font-geist text-[35px]">
           On s’occupe de <span className="text-[#5CD2DD]">tout</span>
         </p>
-        <p className="font-geist text-[#9c9c9c]">
+        <p className="font-geist text-[#9c9c9c] text-center">
           Office ipsum you must be muted. It meeting commitment busy pain.
         </p>
       </div>

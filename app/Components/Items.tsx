@@ -1,3 +1,4 @@
+import BigCart from "./BigCart";
 import ItemCart from "./ItemCart";
 
 export default function Items() {
@@ -28,10 +29,10 @@ export default function Items() {
           </svg>
         </div>
         <div className="flex flex-wrap gap-[12px] justify-between w-full">
-          <ItemCart size={330} />
-          <ItemCart size={330} />
-          <ItemCart size={330} />
-          <ItemCart size={330} />
+          <ItemCart />
+          <ItemCart />
+          <ItemCart />
+          <ItemCart />
         </div>
         <div className="absolute right-0 top-1/2 transform -translate-y-1/2 w-[46px] h-[46px] bg-[#5CD2DD] flex items-center justify-center z-10 cursor-pointer">
           <svg
@@ -62,9 +63,9 @@ export default function Items() {
           </p>
         </div>
         <div className="mt-6 md:mt-4 flex flex-wrap md:flex-nowrap justify-center md:justify-between gap-6">
-          <ItemCart size={506} />
-          <ItemCart size={506} />
-          <ItemCart size={506} />
+          <BigCart />
+          <BigCart />
+          <BigCart />
         </div>
       </div>
     </div>
